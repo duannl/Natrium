@@ -1,3 +1,16 @@
+HOW TO ENABLE DEVELOPMENT MODE:
+1. cd to project directory, and cd to directory Sources, then run command line: 
+    swift package generate-xcodeproj
+2. Open Natrium.xcodeproj, edit anything you want, then compile to make sure it will build successfully
+3. If everything go right, cd to project directory, run following command lines to get executable file:
+    swift build -c release
+    open .build/release
+=> then you can copy-paste executable file Natrium, then place it into your iOS project to use.
+
+=================
+
+
+
 ![Natrium](Assets/logo.png)
 
 Natrium is part of the **[E-sites iOS Suite](https://github.com/e-sites/iOS-Suite)**.
